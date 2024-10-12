@@ -1,4 +1,4 @@
-# Termux-Wifi
+# termux-wifi
 Shutdown Wifi Teman
 
 ```python
@@ -6,7 +6,7 @@ pkg update && pkg upgrade
 pkg install python
 pkg install git
 cd
-rm -rf Termux-Wifi
-git clone https://github.com/Dra-ID/Termux-Wifi
-cd Termux-Wifi
+rm -rf termux-wifi
+git clone https://github.com/dra-id/termux-wifi 
+cd termux-wifi 
 python run.py
